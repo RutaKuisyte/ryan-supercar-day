@@ -6,7 +6,7 @@
 <title>Ryan's Supercar Day</title>
 <style>
 :root{--bg:#06080c;--panel:#0d1219;--line:#222a35;--text:#fff;--muted:#aab2bf;--red:#e10600}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif}.wrap{max-width:1100px;margin:auto;padding:24px}.hero{padding:50px 0;border-top:6px solid var(--red)}.hero h1{font-size:clamp(48px,9vw,96px);line-height:.9;margin:8px 0}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{background:var(--panel);border:1px solid var(--line);padding:18px}.tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#ff4a43;font-weight:800}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.stat{background:#10151d;padding:14px}.stat b{display:block}.section{padding:42px 0;border-top:1px solid var(--line)}h2{font-size:clamp(34px,6vw,62px);margin:6px 0 20px}.media{width:100%;height:auto;display:block;background:#0d1219}.car-media{aspect-ratio:2/1;object-fit:cover}.portrait{width:100%;height:100%;object-fit:cover;min-height:520px}.circuit{background:#fff;object-fit:contain}.driver{display:grid;grid-template-columns:1fr 1fr;padding:0;overflow:hidden}.driver .copy{padding:28px;display:flex;flex-direction:column;justify-content:center}.driver-profile{margin-top:22px;border-top:1px solid var(--line)}.profile-row{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}.profile-row span:first-child{color:#ff4a43;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.profile-row span:last-child{color:#e8edf4}.btn{display:inline-block;padding:12px 16px;background:var(--red);color:#fff;text-decoration:none;margin:8px 8px 0 0}.check{padding:10px 0;border-bottom:1px solid var(--line)}.video{aspect-ratio:16/9;background:#111;display:grid;place-items:center;text-align:center}.video a{color:#fff}@media(max-width:760px){.grid,.driver,.stats{grid-template-columns:1fr}.wrap{padding:18px}.hero{padding-top:30px}.portrait{min-height:0;height:auto}.car-media{aspect-ratio:auto;object-fit:contain}.profile-row{grid-template-columns:90px 1fr}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif}.wrap{max-width:1100px;margin:auto;padding:24px}.hero{padding:50px 0;border-top:6px solid var(--red)}.hero h1{font-size:clamp(48px,9vw,96px);line-height:.9;margin:8px 0}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{background:var(--panel);border:1px solid var(--line);padding:18px}.tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#ff4a43;font-weight:800}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.stat{background:#10151d;padding:14px}.stat b{display:block}.section{padding:42px 0;border-top:1px solid var(--line)}h2{font-size:clamp(34px,6vw,62px);margin:6px 0 20px}.media{width:100%;height:auto;display:block;background:#0d1219}.car-media{aspect-ratio:2/1;object-fit:cover}.portrait{width:100%;height:100%;object-fit:cover;min-height:520px}.circuit{background:#fff;object-fit:contain}.driver{display:grid;grid-template-columns:1fr 1fr;padding:0;overflow:hidden}.driver .copy{padding:28px;display:flex;flex-direction:column;justify-content:center}.driver-profile{margin-top:22px;border-top:1px solid var(--line)}.profile-row{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}.profile-row span:first-child{color:#ff4a43;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.profile-row span:last-child{color:#e8edf4}.fact-list{margin-top:16px;border-top:1px solid var(--line)}.fact-row{padding:11px 0;border-bottom:1px solid var(--line);color:#e8edf4;font-size:14px}.fact-row b{color:#fff}.hype{font-size:20px;line-height:1.3;font-weight:800;color:#fff;margin:8px 0 14px}.btn{display:inline-block;padding:12px 16px;background:var(--red);color:#fff;text-decoration:none;margin:8px 8px 0 0}.check{padding:10px 0;border-bottom:1px solid var(--line)}.video{aspect-ratio:16/9;background:#111;display:grid;place-items:center;text-align:center}.video a{color:#fff}@media(max-width:760px){.grid,.driver,.stats{grid-template-columns:1fr}.wrap{padding:18px}.hero{padding-top:30px}.portrait{min-height:0;height:auto}.car-media{aspect-ratio:auto;object-fit:contain}.profile-row{grid-template-columns:90px 1fr}}
 </style>
 </head>
 <body>
@@ -27,9 +27,30 @@
 <div class="tag">01 · The machines</div>
 <h2>What you're driving.</h2>
 <div class="grid">
-<div class="card"><img class="media car-media" src="assets/Screenshot%202026-09-03%20at%2013.45.07.png" alt="Lamborghini Huracán"><h3>Lamborghini Huracán</h3><p class="muted">5.2L V10 family · LP 610-4 reference: 610 CV · 0–100 km/h ~3.2s</p></div>
-<div class="card"><img class="media car-media" src="assets/Screenshot%202026-09-03%20at%2013.45.23.png" alt="Ferrari California"><h3>Ferrari California</h3><p class="muted">4.3L V8 · 460 hp reference · 310 km/h reference top speed</p></div>
+<div class="card">
+<img class="media car-media" src="assets/Screenshot%202026-09-03%20at%2013.45.07.png" alt="Lamborghini Huracán">
+<h3>Lamborghini Huracán</h3>
+<p class="muted">5.2L V10 family · LP 610-4 reference: 610 CV · 0–100 km/h ~3.2s</p>
+<div class="fact-list">
+<div class="fact-row"><b>V10 soundtrack.</b> A naturally aspirated 5.2-litre V10 is the heart of the Huracán.</div>
+<div class="fact-row"><b>Proper supercar pace.</b> The LP 610-4 reference model reaches 100 km/h in about 3.2 seconds.</div>
+<div class="fact-row"><b>Race-bred tech.</b> The original LP 610-4 pairs a 7-speed dual-clutch gearbox with all-wheel drive.</div>
+<div class="fact-row"><b>Why it matters.</b> This is the kind of car you normally hear before you properly see it.</div>
 </div>
+</div>
+<div class="card">
+<img class="media car-media" src="assets/Screenshot%202026-09-03%20at%2013.45.23.png" alt="Ferrari California">
+<h3>Ferrari California</h3>
+<p class="muted">4.3L V8 · 460 hp reference · 310 km/h reference top speed</p>
+<div class="fact-list">
+<div class="fact-row"><b>Ferrari V8.</b> The original California uses a 4.3-litre naturally aspirated V8 producing 460 hp.</div>
+<div class="fact-row"><b>Fast and elegant.</b> Ferrari quoted a 310 km/h top speed for the original model.</div>
+<div class="fact-row"><b>A Ferrari first.</b> The California introduced several firsts for Ferrari road cars, including a front-mounted V8 and a 7-speed dual-clutch gearbox.</div>
+<div class="fact-row"><b>Totally different character.</b> Less wild than the Lamborghini, more grand tourer — but still unmistakably Ferrari.</div>
+</div>
+</div>
+</div>
+<p class="muted" style="margin-top:12px;font-size:12px">Performance figures are reference specifications for the model family; the exact event vehicle specification can vary.</p>
 </section>
 
 <section class="section">
@@ -57,7 +78,18 @@
 <h2>Three Sisters Circuit.</h2>
 <div class="grid">
 <div class="card"><img class="media circuit" src="assets/Screenshot%202026-09-03%20at%2013.43.16.png" alt="Three Sisters Sprint circuit map"></div>
-<div class="card"><h3>A proper licensed circuit with real motorsport history.</h3><p class="muted">Three Sisters is a Motorsport UK and ACU-licensed outdoor circuit in Wigan. The longest configuration is 1,473 metres.</p><p class="muted">The venue has links to Lewis Hamilton, Lando Norris and George Russell from their earlier racing years.</p><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Three+Sisters+Circuit+Three+Sisters+Road+Ashton-in-Makerfield+WN4+8DD">Open in Maps</a></div>
+<div class="card">
+<div class="tag">The Jewel of the North</div>
+<p class="hype">This isn't a painted loop in a car park. Three Sisters is a proper motorsport venue with decades of racing history behind it.</p>
+<p class="muted">Built on reclaimed colliery land in Wigan, Three Sisters became one of the North's best-known outdoor circuits. It is licensed by Motorsport UK and the ACU, with a longest configuration of 1,473 metres.</p>
+<div class="fact-list">
+<div class="fact-row"><b>Future stars came through here.</b> The circuit's history includes links to Lewis Hamilton, while Lando Norris and George Russell were regulars during their karting years.</div>
+<div class="fact-row"><b>Real racing pedigree.</b> Motorcycle world champion Neil Hodgson took his first race win at Three Sisters in 1990.</div>
+<div class="fact-row"><b>Old-school character.</b> The site grew out of land once dominated by three huge colliery spoil heaps — the "Three Sisters" that gave the circuit its name.</div>
+<div class="fact-row"><b>The best bit.</b> Ryan gets to drive two genuine supercars on a circuit where serious racers learned their craft long before the big stages.</div>
+</div>
+<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Three+Sisters+Circuit+Three+Sisters+Road+Ashton-in-Makerfield+WN4+8DD">Open in Maps</a>
+</div>
 </div>
 </section>
 
