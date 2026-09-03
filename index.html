@@ -6,7 +6,7 @@
 <title>Ryan's Supercar Day</title>
 <style>
 :root{--bg:#06080c;--panel:#0d1219;--line:#222a35;--text:#fff;--muted:#aab2bf;--red:#e10600}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif}.wrap{max-width:1100px;margin:auto;padding:24px}.hero{padding:50px 0;border-top:6px solid var(--red)}.hero h1{font-size:clamp(48px,9vw,96px);line-height:.9;margin:8px 0}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{background:var(--panel);border:1px solid var(--line);padding:18px}.tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#ff4a43;font-weight:800}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.stat{background:#10151d;padding:14px}.stat b{display:block}.section{padding:42px 0;border-top:1px solid var(--line)}h2{font-size:clamp(34px,6vw,62px);margin:6px 0 20px}.media{width:100%;height:auto;display:block;background:#0d1219}.car-media{aspect-ratio:2/1;object-fit:cover}.portrait{width:100%;height:100%;object-fit:cover;min-height:520px}.circuit{background:#fff;object-fit:contain}.driver{display:grid;grid-template-columns:1fr 1fr;padding:0;overflow:hidden}.driver .copy{padding:28px}.btn{display:inline-block;padding:12px 16px;background:var(--red);color:#fff;text-decoration:none;margin:8px 8px 0 0}.check{padding:10px 0;border-bottom:1px solid var(--line)}.video{aspect-ratio:16/9;background:#111;display:grid;place-items:center;text-align:center}.video a{color:#fff}@media(max-width:760px){.grid,.driver,.stats{grid-template-columns:1fr}.wrap{padding:18px}.hero{padding-top:30px}.portrait{min-height:0;height:auto}.car-media{aspect-ratio:auto;object-fit:contain}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif}.wrap{max-width:1100px;margin:auto;padding:24px}.hero{padding:50px 0;border-top:6px solid var(--red)}.hero h1{font-size:clamp(48px,9vw,96px);line-height:.9;margin:8px 0}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{background:var(--panel);border:1px solid var(--line);padding:18px}.tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#ff4a43;font-weight:800}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.stat{background:#10151d;padding:14px}.stat b{display:block}.section{padding:42px 0;border-top:1px solid var(--line)}h2{font-size:clamp(34px,6vw,62px);margin:6px 0 20px}.media{width:100%;height:auto;display:block;background:#0d1219}.car-media{aspect-ratio:2/1;object-fit:cover}.portrait{width:100%;height:100%;object-fit:cover;min-height:520px}.circuit{background:#fff;object-fit:contain}.driver{display:grid;grid-template-columns:1fr 1fr;padding:0;overflow:hidden}.driver .copy{padding:28px;display:flex;flex-direction:column;justify-content:center}.driver-profile{margin-top:22px;border-top:1px solid var(--line)}.profile-row{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}.profile-row span:first-child{color:#ff4a43;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.profile-row span:last-child{color:#e8edf4}.btn{display:inline-block;padding:12px 16px;background:var(--red);color:#fff;text-decoration:none;margin:8px 8px 0 0}.check{padding:10px 0;border-bottom:1px solid var(--line)}.video{aspect-ratio:16/9;background:#111;display:grid;place-items:center;text-align:center}.video a{color:#fff}@media(max-width:760px){.grid,.driver,.stats{grid-template-columns:1fr}.wrap{padding:18px}.hero{padding-top:30px}.portrait{min-height:0;height:auto}.car-media{aspect-ratio:auto;object-fit:contain}.profile-row{grid-template-columns:90px 1fr}}
 </style>
 </head>
 <body>
@@ -36,7 +36,18 @@
 <div class="tag">02 · Driver profile</div>
 <h2>Race-day energy.</h2>
 <div class="card driver">
-<div class="copy"><div class="tag">Super Car Weekend</div><h2>RYAN<br>HOOD</h2><p class="muted">A custom race-day driver card styled like a modern motorsport editorial feature.</p></div>
+<div class="copy">
+<div class="tag">Super Car Weekend</div>
+<h2>RYAN<br>HOOD</h2>
+<p class="muted">Quiet confidence, good instincts and plenty of pace once he commits. The main job on the day: trust the car, trust himself, and let the throttle do the talking.</p>
+<div class="driver-profile">
+<div class="profile-row"><span>Driving style</span><span>Measured first, properly quick once settled in.</span></div>
+<div class="profile-row"><span>Strength</span><span>Calm, observant and naturally smooth behind the wheel.</span></div>
+<div class="profile-row"><span>Build</span><span>Tall enough that getting into a supercar may count as the first technical challenge.</span></div>
+<div class="profile-row"><span>Racecraft</span><span>Still unlocking the confidence to stop holding back and use what he's got.</span></div>
+<div class="profile-row"><span>Game plan</span><span>Eyes up. Smooth inputs. Pedal down when it counts.</span></div>
+</div>
+</div>
 <img class="portrait" src="assets/ChatGPT%20Image%20Sep%203,%202026,%2004_02_51%20PM.png" alt="Ryan racing portrait">
 </div>
 </section>
